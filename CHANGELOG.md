@@ -1,5 +1,7 @@
 ## Unreleased
 
+## 3.0.2 (December 17, 2019)
+
 ## 3.0.1 (December 17, 2019)
 
 ## 3.0.0 (December 17, 2019)

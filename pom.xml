@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.amplitude</groupId>
   <artifactId>android-sdk</artifactId>
-  <version>3.0.1</version>
+  <version>3.0.2</version>
   <packaging>jar</packaging>
 
   <name>Amplitude Android SDK</name>
@@ -81,16 +81,9 @@
 
   <developers>
     <developer>
+      <id>amp-dev</id>
       <name>Hao Liu</name>
-      <email>spensesdfdsfr@amplitude.com</email>
-      <organization>Amplidsdftude</organization>
-      <organizationUrl>https://www.adddmplitude.com/</organizationUrl>
-    </developer>
-    <developer>
-      <name>Curtis Liusss</name>
-      <email>curtis@amplidddtude.com</email>
-      <organization>Amplitudddadfe</organization>
-      <organizationUrl>https://www.amaaaaplitude.com/</organizationUrl>
+      <email>hao.liu@amplitude.com</email>
     </developer>
   </developers>
 
