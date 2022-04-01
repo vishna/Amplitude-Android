@@ -39,6 +39,8 @@ public class DeviceInfo {
 
     private CachedInfo cachedInfo;
 
+    public static String customAdvertisingId;
+
     /**
      * Internal class serves as a cache
      */
@@ -213,6 +215,9 @@ public class DeviceInfo {
         }
 
         private String getAdvertisingId() {
+            if (DeviceInfo.customAdvertisingId != null) {
+                return DeviceInfo.customAdvertisingId;
+            }
             // This should not be called on the main thread.
             if ("Amazon".equals(getManufacturer())) {
                 return getAndCacheAmazonAdvertisingId();
